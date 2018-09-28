@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:id="@+id/background">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/redBtn"
+            android:layout_width="@dimen/WidthBtn"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="60dp"
+            android:background="@color/colorBackgroundButton"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="@string/red"
+            android:textColor="@color/colorTextRed"
+            android:textSize="@dimen/textSizeBtn" />
+
+        <Button
+            android:id="@+id/yellowBtn"
+            android:layout_width="@dimen/WidthBtn"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorBackgroundButton"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="@string/yellow"
+            android:textColor="@color/colorTextYellow"
+            android:textSize="@dimen/textSizeBtn" />
+
+        <Button
+            android:id="@+id/greenBtn"
+            android:layout_width="@dimen/WidthBtn"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorBackgroundButton"
+            android:gravity="center"
+            android:onClick="onClick"
+            android:text="@string/green"
+            android:textColor="@color/colorTextGreen"
+            android:textSize="@dimen/textSizeBtn" />
+    </LinearLayout>
+
+</LinearLayout>

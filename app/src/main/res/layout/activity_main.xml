@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/background">
+
+
+    <Button
+        android:id="@+id/redBtn"
+        android:layout_width="200dp"
+        android:layout_marginTop="170dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/colorBackgroundButton"
+        android:gravity="center"
+        android:text="@string/red"
+        android:textColor="@color/colorTextRed"
+        android:onClick="onClick"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/yellowBtn"
+        android:layout_marginTop="10dp"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/colorBackgroundButton"
+        android:gravity="center"
+        android:onClick="onClick"
+        android:text="@string/yellow"
+        android:textColor="@color/colorTextYellow"
+        android:textSize="25sp" />
+
+    <Button
+        android:id="@+id/greenBtn"
+        android:layout_width="200dp"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/colorBackgroundButton"
+        android:onClick="onClick"
+        android:gravity="center"
+        android:text="@string/green"
+        android:textColor="@color/colorTextGreen"
+        android:textSize="25sp" />
+
+</LinearLayout>
